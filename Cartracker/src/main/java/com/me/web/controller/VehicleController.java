@@ -7,6 +7,7 @@ import com.me.web.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.Timestamp;
 import java.util.List;
 
 @RestController
@@ -42,6 +43,12 @@ public class VehicleController {
     @GetMapping("/vehicles/{vin}/alerts")
     public List<Alert> getAllAlerts(@PathVariable("vin") String vin){
         return this.alertService.getAllAlertByVin(vin);
+    }
+
+    @CrossOrigin
+    @GetMapping("/vehicles/get/alerts")
+    public List<Alert> getHighAlerts(){
+        return  this.alertService.getHighAlert();
     }
 
 }
