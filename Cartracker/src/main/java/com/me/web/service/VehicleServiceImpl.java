@@ -5,6 +5,8 @@ import com.me.web.repositories.VehicleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class VehicleServiceImpl implements VehicleService{
     @Autowired
@@ -21,7 +23,13 @@ public class VehicleServiceImpl implements VehicleService{
     }
 
     @Override
-    public Vehicle getVehicleByVin(String vin) {
+    public Vehicle getVehicleByVin(String vin)
+    {
         return this.vehicleRepository.findVehicleByVin(vin);
+    }
+
+    @Override
+    public List<Vehicle> getAllVehicle() {
+        return this.vehicleRepository.findAll();
     }
 }
