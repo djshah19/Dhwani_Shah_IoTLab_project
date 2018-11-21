@@ -1,4 +1,4 @@
-package com.zahangir.springmongorest;
+package com.me.web.springmongoresttests;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

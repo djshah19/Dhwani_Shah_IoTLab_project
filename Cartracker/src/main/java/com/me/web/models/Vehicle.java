@@ -15,7 +15,7 @@ public class Vehicle {
     private float maxFuelVolume;
     private String lastServiceDate;
 
-    public Vehicle(){
+    public Vehicle() {
 
     }
 

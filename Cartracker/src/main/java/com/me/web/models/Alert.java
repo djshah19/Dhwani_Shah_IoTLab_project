@@ -12,7 +12,7 @@ public class Alert {
     private String timeStamp;
     private String priority;
 
-    public Alert(){
+    public Alert() {
 
     }
 

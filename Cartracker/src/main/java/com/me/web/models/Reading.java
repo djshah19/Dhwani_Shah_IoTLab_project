@@ -3,9 +3,6 @@ package com.me.web.models;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Document(collection = "readings")
 public class Reading {
     @Id
@@ -23,7 +20,7 @@ public class Reading {
     private int engineRpm;
     private Tires tires;
 
-    public Reading(){
+    public Reading() {
 
     }
 
