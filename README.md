@@ -13,6 +13,8 @@ Below are the instructions that will get you a copy of the project up and runnin
 
 •	Maven
 
+• Postman
+
 ### Instructions to run application
 •	Install IntelliJ IDE, JDK 1.8
 
