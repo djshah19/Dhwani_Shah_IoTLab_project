@@ -4,7 +4,7 @@ The application implements APIs using Java programming language and Spring boot 
 ## Getting Started
 Below are the instructions that will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Tools
 •	Java JDK 1.8
 
 •	Spring Boot
