@@ -14,4 +14,9 @@ public class ReadingServiceImpl implements ReadingService {
     public void addReading(Reading reading) {
         this.readingRepository.save(reading);
     }
+
+    @Override
+    public Reading getReadingByVin(String vin) {
+        return this.readingRepository.findReadingByVin(vin);
+    }
 }
