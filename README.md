@@ -30,5 +30,13 @@ Below are the instructions that will get you a copy of the project up and runnin
 
 •	Use Mocker Serivce/POSTMAN to consume the API's
 
+### Instructions to run unit tests
+• Install JUnits for unit testing
+
+#### List of test cases
+SaveReadingTest
+
+SaveVehicleTest
+
 ## Author
 Dhwani Shah 001247558
